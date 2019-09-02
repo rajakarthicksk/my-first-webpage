@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UNBOX THE INBOX</title>
+
+		<meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<p class="hi hello">UNBOX THE INBOX</p>
+		<h1>Try to answer the given questions below and secure more points!</h1>
+
+		<form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfzi-UNF02mCZgwUD-oz3Sx9bRDyshfJia1bsf5U4uVRDqQ_w/formResponse" target="_self"  method="POST" autocomplete="off">
+		
+		<p id="detail">Enter Details:</p>
+
+	<div id="info">
+		<ul style="list-style-type: none">
+            <li>Participant1 &nbsp;&nbsp;<input id='Participant1' type="text" name="entry.1695246238" placeholder="Name" value="" required></li>
+            <br>
+            <li>Participant2 &nbsp;&nbsp;<input id='Participant2' type="text" name="entry.2056713745" placeholder="Name" value=""></li>
+            <br>
+            <li>Email &nbsp;&nbsp;<input id='email' type="email" name="entry.1743417919" placeholder="Mail id" value="" required></li>
+            <br>
+            <li>Phone &nbsp;&nbsp;<input id='phone' type="text" name="entry.967947321" placeholder="cellphone number" value="" required></li>
+            <br>
+            <li>College &nbsp;&nbsp;<input id='college' type="text" name="entry.1717662983" placeholder="college-name" value="" required></li>
+            <br>
+            </ul>
+	</div>
+	<div class="clock"><span id="timer"></span></div>
+	<div class="sticky">        
+	<h3 id='point'>Points : 0</h3>
+	</div>
+
+	
+
+		<div class="do" id="da">
+		
+			<p>1.Your answer is in desktop.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q1' type="text" placeholder="       your answer here" value="">
+			<button id="btn1" type="button" onclick="check1()">GO!</button>
+			<p id='a1'></p>
+			<br>
+			
+			<p>2.The folders in desktop contains the answer.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q2' type="text" placeholder="       your answer here" value="" >
+			<button id="btn2" type="button" onclick="check2()">GO!</button>
+			<p id='a2'></p>
+			<br>
+
+			<p>3.Dont think everything is trash.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q3' type="text" placeholder="       your answer here" value="" >
+			<button id="btn3" type="button" onclick="check3()" >GO!</button>
+			<p id='a3'></p>
+			<br>
+
+			<p>4.Look deep.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q4' type="text" placeholder="       your answer here" value="" >
+			<button id="btn4" type="button" onclick="check4()">GO!</button>
+			<p id='a4'></p>
+			<br>
+
+			<p>5.Connexion gives result.</p>
+			<p>Hint: unbox folders\New folder (98)\flour</p>
+			<input onkeydown="return event.key != 'Enter';" id='q5' type="text" placeholder="       your answer here" value="" >
+			<button id="btn5" type="button" onclick="check5()">GO!</button>
+			<p id='a5'></p>
+			<br>
+
+			<p>6.Float over text.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q6' type="text" placeholder="       your answer here" value="" >
+			<button id="btn6" type="button" onclick="check6()">GO!</button>
+			<p id='a6'></p>
+			<br>
+
+			<p>7.Everything needs a title.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q7' type="text" placeholder="       your answer here" value="" >
+			<button id="btn7" type="button" onclick="check7()">GO!</button>
+			<p id='a7'></p>
+			<br>
+
+			<p>8.Find the password.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q8' type="text" placeholder="       your answer here" value="" >
+			<button id="btn8" type="button" onclick="check8()">GO!</button>
+			<p id='a8'></p>
+			<br>
+
+			<p>9.Look deep.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q9' type="text" placeholder="       your answer here" value="" >
+			<button id="btn9" type="button" onclick="check9()">GO!</button>
+			<p id='a9'></p>
+			<br>
+
+			<p>10.Full Form.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q10' type="text" placeholder="       your answer here" value="" >
+			<button id="btn10" type="button" onclick="check10()">GO!</button>
+			<p id='a10'></p>
+			<br>
+
+			<p>11.Execute Java Program.	</p>
+			<p>Hint:unbox folders\New folder (80)\New folder </p>
+			<input onkeydown="return event.key != 'Enter';" id='q11' type="text" placeholder="       your answer here" value="" >
+			<button id="btn11" type="button" onclick="check11()">GO!</button>
+			<p id='a11'></p>
+			<br>
+
+			<p>12.QR.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q12' type="text" placeholder="       your answer here" value="" >
+			<button id="btn12" type="button" onclick="check12()">GO!</button>
+			<p id='a12'></p>
+			<br>
+
+			<p>13.Android</p>
+			<p>Hint:unbox folders\New folder (109)\New folder</p>
+			<input onkeydown="return event.key != 'Enter';" id='q13' type="text" placeholder="       your answer here" value="" >
+			<button id="btn13" type="button" onclick="check13()">GO!</button>
+			<p id='a13'></p>
+			<br>
+
+			<p>14.Extension matters.</p>
+			<p>Hint: The file is in unbox folders\New folder (114)\New folder Timestamp= 00:19</p>
+			<input onkeydown="return event.key != 'Enter';" id='q14' type="text" placeholder="       your answer here" value="" >
+			<button id="btn14" type="button" onclick="check14()">GO!</button>
+			<p id='a14'></p>
+			<br>
+
+			<p>15.Find the Build Number.</p>
+			<input onkeydown="return event.key != 'Enter';" id='q15' type="text" placeholder="       your answer here" value="" >
+			<button id="btn15" type="button" onclick="check15()">GO!</button>
+			<p id='a15'></p>
+			<br>
+
+			
+			
+			<input  onkeydown="return event.key != 'Enter';" type="text" id="points" style="display: none" name="entry.54928781">
+            <input id="final" onkeydown="return event.key != 'Enter';" type="submit" value="final_submit" >
+
+		</form>
+		</div>
+
+	</body>
+</html>
